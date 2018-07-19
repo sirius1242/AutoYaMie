@@ -8,7 +8,7 @@ mkdir -p generated
 MODE="auto-yamie"
 TEMPLATE="YaMie.xcf"
 SOURCE="images"
-TARGET=""
+TARGET="yamie"
 while getopts "m:e:s:t:" OPT; do
 	case "$OPT" in
 		m)
